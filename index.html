@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redowan Tanvir Shifat - Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Alex Johnson, Full Stack Developer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="theme-light">
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="logo">Tanvir Shifat</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title" id="heroName">Alex Johnson</h1>
+                        <p class="hero-subtitle" id="heroTitle">Full Stack Developer</p>
+                        <p class="hero-description" id="heroDescription">Passionate developer with a calm approach to
+                            problem-solving and an aggressive drive for excellence.</p>
+                        <div class="hero-actions">
+                            <button class="btn btn-primary" id="downloadCV">
+                                <i class="fas fa-download"></i> Download CV
+                            </button>
+                            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-container">
+                            <img src="images/profile.jpg" alt="Alex Johnson" class="profile-image"
+                                onerror="this.onerror=null; this.style.display='none'; document.getElementById('fallbackAvatar').style.display='block';">
+                            <svg id="fallbackAvatar" width="400" height="400" viewBox="0 0 400 400"
+                                xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <defs>
+                                    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3182ce;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#805ad5;stop-opacity:1" />
+                                    </linearGradient>
+                                    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f7fafc;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="200" cy="200" r="200" fill="url(#bgGradient)" />
+                                <g transform="translate(200, 200)">
+                                    <circle cx="0" cy="-40" r="50" fill="url(#faceGradient)" opacity="0.9" />
+                                    <ellipse cx="0" cy="40" rx="60" ry="80" fill="url(#faceGradient)" opacity="0.9" />
+                                    <ellipse cx="0" cy="80" rx="80" ry="40" fill="url(#faceGradient)" opacity="0.9" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text" id="aboutText"></div>
+                    <div class="about-stats" id="aboutStats"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid" id="skillsGrid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline" id="experienceTimeline"></div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p id="contactDescription"></p>
+                        <div class="contact-links" id="contactLinks"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Alex Johnson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

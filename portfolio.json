@@ -1,0 +1,160 @@
+{
+  "personal": {
+    "name": "Redowan Tanvir Shifat",
+    "title": "Full Stack Developer",
+    "description": "Passionate developer with a calm approach to problem-solving and an aggressive drive for excellence. I build modern web applications with clean code and intuitive user experiences.",
+    "image": "images/profile.jpg"
+  },
+  "about": {
+    "description": [
+      "I'm a dedicated full stack developer with 5+ years of experience creating digital solutions that make a difference. My approach combines methodical planning with bold execution, ensuring every project delivers both technical excellence and user satisfaction.",
+      "When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or mentoring aspiring developers. I believe in continuous learning and pushing the boundaries of what's possible with code.",
+      "My dual personality reflects in my work: calm and analytical when debugging complex issues, yet aggressive and relentless when pursuing innovative solutions that exceed expectations."
+    ],
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "20+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "value": "10+",
+        "label": "Technologies Mastered"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Expert",
+      "icon": "fab fa-js-square"
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "icon": "fab fa-react"
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced",
+      "icon": "fab fa-node-js"
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "icon": "fab fa-python"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "icon": "fas fa-code"
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermediate",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "icon": "fab fa-aws"
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "icon": "fab fa-docker"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Senior Full Stack Developer",
+      "company": "TechCorp Solutions",
+      "period": "2022 - Present",
+      "description": "Lead development of enterprise web applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines that improved deployment efficiency by 40%."
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "StartupXYZ",
+      "period": "2020 - 2022",
+      "description": "Developed and maintained multiple web applications serving 10k+ users. Built RESTful APIs, implemented real-time features with WebSockets, and optimized database performance."
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Digital Agency",
+      "period": "2019 - 2020",
+      "description": "Created responsive web applications and e-commerce platforms. Collaborated with designers to implement pixel-perfect UIs and improved page load speeds by 60%."
+    },
+    {
+      "position": "Junior Developer",
+      "company": "WebDev Studio",
+      "period": "2018 - 2019",
+      "description": "Gained hands-on experience in web development fundamentals. Contributed to various client projects and learned modern development practices and version control."
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard. Built with modern technologies for scalability and performance.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+      "liveUrl": "https://example-ecommerce.com",
+      "codeUrl": "https://github.com/alexjohnson/ecommerce-platform",
+      "icon": "fas fa-shopping-cart"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A collaborative project management tool with real-time updates, team collaboration features, and advanced reporting. Supports agile workflows and team productivity.",
+      "technologies": ["React", "TypeScript", "Socket.io", "PostgreSQL"],
+      "liveUrl": "https://example-taskapp.com",
+      "codeUrl": "https://github.com/alexjohnson/task-manager",
+      "icon": "fas fa-tasks"
+    },
+    {
+      "title": "Weather Analytics Dashboard",
+      "description": "An interactive dashboard for weather data visualization with predictive analytics. Features real-time data processing and machine learning predictions.",
+      "technologies": ["Python", "React", "D3.js", "FastAPI", "TensorFlow"],
+      "liveUrl": "https://example-weather.com",
+      "codeUrl": "https://github.com/alexjohnson/weather-dashboard",
+      "icon": "fas fa-cloud-sun"
+    },
+    {
+      "title": "Social Media Analytics",
+      "description": "A comprehensive social media analytics platform that tracks engagement metrics, sentiment analysis, and provides actionable insights for content creators.",
+      "technologies": ["Vue.js", "Python", "Redis", "PostgreSQL", "Docker"],
+      "liveUrl": "https://example-analytics.com",
+      "codeUrl": "https://github.com/alexjohnson/social-analytics",
+      "icon": "fas fa-chart-line"
+    }
+  ],
+  "contact": {
+    "description": "Ready to collaborate on your next project? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and deliver exceptional results.",
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:alex.johnson@example.com",
+        "icon": "fas fa-envelope"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/redowantanvirshifat/",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Redowan-Tanvir-Shifat",
+        "icon": "fab fa-github"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/tanvir.shifat.719566",
+        "icon": "fab fa-facebook"
+      }
+    ]
+  }
+}
