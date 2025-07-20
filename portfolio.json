@@ -74,7 +74,7 @@
     {
       "title": "BMI Calculator",
       "description": "This BMI Calculator is a modern, responsive web app that allows users to calculate their Body Mass Index using customizable height and weight units. It provides instant results, visual BMI categories, and helpful health guidelines for easy understanding.",
-      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "liveUrl": "https://redowan-tanvir-shifat.github.io/BMI-Calculator/",
       "codeUrl": "https://github.com/Redowan-Tanvir-Shifat/BMI-Calculator",
       "icon": "fas fa-weight-scale"
