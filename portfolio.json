@@ -74,7 +74,7 @@
     {
       "title": "Email/SMS Spam Classifier",
       "description": "This project is a machine learning-based spam classifier that uses advanced algorithms to accurately identify and filter spam emails and SMS messages. It features a user-friendly interface for easy interaction and real-time classification results.",
-      "technologies": ["Python, Streamlit", "Machine Learning", "Natural Language Processing"],
+      "technologies": ["Python" , "Streamlit", "ML", "NLP"],
       "liveUrl": "https://es-spam-classifier.streamlit.app/",
       "codeUrl": "https://github.com/Redowan-Tanvir-Shifat/Email-SMS-Spam-Classifier",
       "icon": "fas fa-search"
