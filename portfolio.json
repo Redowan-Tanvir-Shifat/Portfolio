@@ -72,12 +72,20 @@
   ],
   "projects": [
     {
+      "title": "Email/SMS Spam Classifier",
+      "description": "This project is a machine learning-based spam classifier that uses advanced algorithms to accurately identify and filter spam emails and SMS messages. It features a user-friendly interface for easy interaction and real-time classification results.",
+      "technologies": ["Python, Streamlit", "Machine Learning", "Natural Language Processing"],
+      "liveUrl": "https://es-spam-classifier.streamlit.app/",
+      "codeUrl": "https://github.com/Redowan-Tanvir-Shifat/Email-SMS-Spam-Classifier",
+      "icon": "fas fa-search"
+    },
+    {
       "title": "BMI Calculator",
       "description": "This BMI Calculator is a modern, responsive web app that allows users to calculate their Body Mass Index using customizable height and weight units. It provides instant results, visual BMI categories, and helpful health guidelines for easy understanding.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "liveUrl": "https://redowan-tanvir-shifat.github.io/BMI-Calculator/",
       "codeUrl": "https://github.com/Redowan-Tanvir-Shifat/BMI-Calculator",
-      "icon": "fas fa-weight-scale"
+      "icon": "fas fa-weight"
     }
   ],
   "contact": {

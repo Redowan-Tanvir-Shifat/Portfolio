@@ -294,29 +294,33 @@ class Portfolio {
         projectsGrid.innerHTML = projects.map(project => `
             <div class="project-card">
                 <div class="project-image">
-                    <i class="${project.icon}"></i>
+                    ${
+                        project.image
+                        ? `<a href="${project.image}" target="_blank" rel="noopener noreferrer"><img src="${project.image}" alt="${project.title}" class="project-img" onerror="this.style.display='none';"></a>`
+                        : `<i class="${project.icon}"></i>`
+                    }
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>
                     <p class="project-description">${project.description}</p>
                     <div class="project-tech">
                         ${project.technologies.map(tech =>
-            `<span class="tech-tag">${tech}</span>`
-        ).join('')}
+                            `<span class="tech-tag">${tech}</span>`
+                        ).join('')}
                     </div>
                     <div class="project-links">
                         ${project.liveUrl ?
-                `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+                            `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fas fa-external-link-alt"></i>
                                 Live Demo
                             </a>` : ''
-            }
+                        }
                         ${project.codeUrl ?
-                `<a href="${project.codeUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
+                            `<a href="${project.codeUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                                 Source Code
                             </a>` : ''
-            }
+                        }
                     </div>
                 </div>
             </div>
